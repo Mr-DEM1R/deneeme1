@@ -63,6 +63,26 @@ test("There is at least one image", () => {
 test("There are at least 500 words on the page", () => {
   expect(getWords.length).toBeGreaterThanOrEqual(500);
 });
+var fruits, emoji;
+
+
+fruits = ['banana', 'Coconut', 'strawberry'];
+emoji = ['🍌', '🥥', '🍓'];
+let element_list = document.getElementById('list');
+while (!!fruits.length) {
+  if(--window.LoopTrap <= 0) throw "Infinite loop.";
+  let new_li = document.createElement('li');
+  let new_span = document.createElement('span');
+  new_span.innerText = fruits.shift();
+
+  new_li.appendChild(new_span);
+
+  element_list.appendChild(new_li);
+  let new_span2 = document.createElement('span');
+  new_span2.innerText = emoji.shift();
+
+  element_list.appendChild(new_span2);
+}
 
 const console = document.getElementById("tests");
 prettify.toHTML(run(), console);
