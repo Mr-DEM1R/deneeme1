@@ -1,7 +1,7 @@
 var fruits;
 
 
-fruits = ['orange', 'mango', 'banana'];
+fruits = ['item1', 'item2', 'item3'];
 
 
 document.getElementById('button').addEventListener('click', (event) => {
