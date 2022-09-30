@@ -24,11 +24,12 @@ body {
 .hero{
 	height: 100vh;
 	width: 100%;
-	background-image: url(https://scontent-lhr8-1.xx.fbcdn.net/v/t1.6435-9/122235116_10220860038962504_3129666346511305968_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=6EbqNiuHajcAX8yvxiq&tn=X6awtK8WXIjmwgJz&_nc_ht=scontent-lhr8-1.xx&oh=00_AT9ziCPVyMw4SKWMpiz9ZL9bo_ySkt_8w94y5PxYP93ooQ&oe=634CDDBC);
+	background-image: url(https://cdn.wallpapersafari.com/17/83/0oecFQ.gif);
 	background-size: cover;
 	background-position: center;
 }
 nav{
+
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -37,31 +38,32 @@ nav{
 	padding-right: 8%;
 }
 .logo{
-	color: white;
+	color: #3799AC;
 	font-size: 35px;
 	letter-spacing: 1px;
 	cursor: pointer;
 }
 span{
-	color: #f9004d;
+	color: #3799AC;
 }
 nav ul li{
 	list-style-type: none;
 	display: inline-block;
 	padding: 10px  25px;
+  
 }
 nav ul li a{
-	color: white;
+	color: #174049;
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: capitalize;
 }
 nav ul li a:hover{
-	color: #f9004d;
+	color: #35AFC7;
 	transition: .4s;
 }
 .btn{
-	background-color:#f9004d;
+	background-color:#3799AC;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -80,13 +82,14 @@ nav ul li a:hover{
 	transform: translateY(-50%);
 }
 h1{
-	color: white;
+  font-family: 'Courier New', monospace;
+	color: black;
 	margin: 20px 0px 20px;
 	font-size: 75px;
 }
 .c-site-header
 {
-  color:pink
+  color:#3799AC;
 }
 header{
 	color: white;
@@ -94,7 +97,7 @@ header{
 	margin-bottom: 50px;
 }
 h4{
-	color: #fcfc;
+	color: #3799AC;
 	letter-spacing: 2px;
 	font-size: 20px;
 }
@@ -107,7 +110,7 @@ h4{
 	display: inline-block;
 	width: 100%;
 	padding: 14px 130px 14px 15px;
-	border: 2px solid #f9004d;
+	border: 2px solid #35AFC7;
 	outline: none;
 	border-radius: 30px;
 }
@@ -118,9 +121,9 @@ h4{
 	border: none;
 	padding: 10px 30px;
 	border-radius: 30px;
-	background-color:#f9004d;
+	background-color:#3799AC;
 	color: white;
-	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+	box-shadow: 0px 0px 5px #000, 0px 0px 15px #3799AC;
 	top: 6px;
 	right: 6px; 
 }
@@ -166,7 +169,7 @@ h4{
 	margin-bottom: 45px;
 }
 button{
-	background-color:#f9004d;
+	background-color:#3799AC;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -215,7 +218,7 @@ button:hover{
 	display: block;
 	text-align: center;
 	margin: 25px 0px;
-	color: #f9004d;
+	color: #3799AC;
 
 }
 h5{
@@ -230,7 +233,7 @@ h5{
 	margin-bottom: 25px;
 }
 .card .button{
-	background-color:#f9004d;
+	background-color:#3799AC;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -304,13 +307,16 @@ footer p:nth-child(2){
 .social{
 	display: flex;
 }
+.kepce{
+  
+}
 .social a{
 	width: 45px;
 	height: 45px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background:  #f9004d;
+	background:  #3799AC;
 	border-radius: 50%;
 	margin: 22px 10px;
 	color: white;
@@ -323,7 +329,7 @@ footer p:nth-child(2){
 }
 .end{
 	position: absolute;
-	color:#f9004d;
+	color:#3799AC;
 	bottom: 35px;
 	font-size: 14px; 
 }
